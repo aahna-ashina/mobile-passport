@@ -5,7 +5,7 @@ import fs from 'fs'
 
 // req = HTTP incoming message, res = HTTP server response
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
-    console.log('/api/downloadPass2')
+    console.log('/api/downloadPassTmp')
     
     console.log('require(\'os\').tmpdir():', require('os').tmpdir())
 
